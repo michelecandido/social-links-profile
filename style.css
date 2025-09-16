@@ -1,0 +1,87 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* fonts */
+@font-face {
+    font-family: 'Inter';
+    src: url('./assets/fonts/static/Inter-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('./assets/fonts/static/Inter-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('./assets/fonts/static/Inter-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* colors */
+:root {
+    --green: hsl(75, 94%, 57%);
+    --white: hsl(0, 0%, 100%);
+    --grey-700: hsl(0, 0%, 20%);
+    --grey-800: hsl(0, 0%, 12%);
+    --grey-900: hsl(0, 0%, 8%);
+}
+
+/* general */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--grey-900);
+    cursor: url('./assets/cursor/cursor-normal-select.cur'), auto;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    max-width: 380px;
+    padding: 2.5rem;
+    background-color: var(--grey-800);
+}
+
+.button {
+    display: block;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    background-color: var(--grey-700);
+    color: var(--white);
+}
+
+.button:hover {
+    background-color: var(--green);
+    color: var(--grey-700);
+}
+
+a {
+    cursor: url('./assets/cursor/cursor-link-select.cur'), auto;
+}
+
+/* text */
+h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: ;
+}
+
+p, h1 {
+    cursor: url('./assets/cursor/cursor-text-select.cur'), auto;
+}
+
+/* image */
