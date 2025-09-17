@@ -51,8 +51,8 @@ body {
     align-items: center;
     width: 90%;
     max-width: 260px;
-    border-radius: 12px;
-    padding: 2rem 3.5rem 2rem 3.5rem;
+    border-radius: 10px;
+    padding: 2.5rem 3rem 2rem 3rem;
     background-color: var(--grey-800);
 }
 
@@ -60,7 +60,7 @@ body {
     display: block;
     text-align: center;
     width: 100%;
-    margin: 8px;
+    margin: 7px;
     padding: 13px;
     border-radius: 8px;
 
@@ -84,8 +84,28 @@ a {
 /* text */
 h1 {
     font-family: 'Inter', sans-serif;
+    color: var(--white);
     font-weight: 700;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
+    padding-top: 25px;
+}
+
+p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+
+.local {
+    color: var(--green);
+    font-weight: 600;
+    padding-top: 10px;
+}
+
+.description {
+    color: var(--white);
+    font-weight: 400;
+    padding: 1.7rem 0 1rem 0;
 }
 
 p, h1 {
@@ -95,5 +115,6 @@ p, h1 {
 /* image */
 
 .profile-pic {
-    
+    border-radius: 50%;
+    max-width: 32%;
 }
